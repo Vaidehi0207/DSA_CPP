@@ -27,9 +27,7 @@ public:
             if(left == sum){
                 return i;
             }
-            else{
                 left += nums[i];
-            }
         }
         return -1;
     }
